@@ -19,7 +19,7 @@ body{
 /*TODO: Fix the oppacity and add blur effect to the background.*/
 #container{
     background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 5%;
+    border-radius: 4px;
     padding: 5px;
     margin: auto;
     position: relative;
@@ -42,8 +42,13 @@ footer{
     right: 0px;
     left: 0px;
 }
-.button{
+button{
+    padding: 5px;
     font-family: Verdana;
+    border: 10px, solid, #eb58d9;
+    border-color: #eb58d9;
+    color: rgb(245,245,245);
+    background-color: rgba(0, 0, 0, 0);
 }
 .footer-font{
     color: black;

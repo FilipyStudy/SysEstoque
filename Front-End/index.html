@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Controle seu estoque</title>
+    <script src="script.js"></script>
 </head>
 <body> 
     <!--Conteiner contening all the login informations and elements-->>
     <div id="container">
         <div id="login_popup">
             <h1 id="login_popup_title">> LOGIN!</h1>
-            <input type="text" id="username" value="Username" min="1">
-            <input type="password" id="password" value="Password" min="8">
+            <input type="text" id="username" value="" min="1" placeholder="Your username!">
+            <input type="password" id="password" value="" min="8" placeholder="Put here your password!">
         </div>
         <!--TODO: Distribute the contents in this div-->
         <div id="login_buttons">
             <input type="checkbox" id="remember_me_checkbox"><label id="remember_text">Remember-me!</label>
-            <button type="button" id="login_action">Ready to enter!</button>
-            <button type="button" id="register_action">Register my account</button>
+            <button type="button" id="login_action" onclick="onClickButton()">Ready to enter!</button>
+            <button type="button" id="register_action" onclick="onClickButton()">Register my account</button>
         </div>
     </div>
     <footer>
