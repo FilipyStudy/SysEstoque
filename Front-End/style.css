@@ -2,6 +2,13 @@ body{
     font-family: Verdana;
     background-image: url("imgs/bg.webp");
     background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#remember_text{
+    color: white;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #login_popup_title{
     font-size:25px;
@@ -9,14 +16,38 @@ body{
     font-display: auto;
     color:aliceblue;
 }
+/*TODO: Fix the oppacity and add blur effect to the background.*/
 #container{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.75);
     border-radius: 5%;
-    padding: 0px;
+    padding: 5px;
     margin: auto;
     position: relative;
     width: 50%;
+    height: 100%;
+    text-align: center;
+    margin-top: 20%;
+}
+#login_buttons{
+    padding:5px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    background-color:rgba(255,255,255,0.5);
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    right: 0px;
+    left: 0px;
 }
 .button{
     font-family: Verdana;
+}
+.footer-font{
+    color: black;
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: bold;
 }

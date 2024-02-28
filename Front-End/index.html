@@ -6,18 +6,26 @@
     <link rel="stylesheet" href="style.css">
     <title>Controle seu estoque</title>
 </head>
-<body>
+<body> 
+    <!--Conteiner contening all the login informations and elements-->>
     <div id="container">
         <div id="login_popup">
-            <h1 id="login_popup_title">Faça login para acessar o sistema.</h1>
-            <input type="text" id="username" value="Username">
-            <input type="text" id="password" value="Senha">
+            <h1 id="login_popup_title">> LOGIN!</h1>
+            <input type="text" id="username" value="Username" min="1">
+            <input type="password" id="password" value="Password" min="8">
         </div>
+        <!--TODO: Distribute the contents in this div-->
         <div id="login_buttons">
-            <input type="checkbox" name="remember_me_checkbox" id="remember_me_checkbox">
-            <button type="button" id="login_action">Logar!</button>
-            <button type="button" id="register_action">Registrar</button>
+            <input type="checkbox" id="remember_me_checkbox"><label id="remember_text">Remember-me!</label>
+            <button type="button" id="login_action">Ready to enter!</button>
+            <button type="button" id="register_action">Register my account</button>
         </div>
     </div>
+    <footer>
+    <p class="footer-font">Developed by: Filipy</p>
+    <a href="https://wa.me/5531971670390" class="footer-font">You like this content? Contact-me!</a>
+    <p class="footer-font">Welcome, this is a 2024 website.</p>    
+    </footer>
+    <!--TODO: Create and think about new elements to complete the page.-->
 </body>
 </html>
