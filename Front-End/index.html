@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Controle seu estoque</title>
 </head>
 <body>
-    <div id="login_popup">
-        <h1 id="login_popup_title">Faça login para acessar o sistema.</h1>
-        <input type="text" id="username" value="Username">
-        <input type="text" id="password" value="Senha">
-        <input type="checkbox" name="remember_me_checkbox" id="remember_me_checkbox">
-        <button type="button" id="login_action">Logar!</button>
-        <button type="button" id="register_action">Registrar</button>
+    <div id="container">
+        <div id="login_popup">
+            <h1 id="login_popup_title">Faça login para acessar o sistema.</h1>
+            <input type="text" id="username" value="Username">
+            <input type="text" id="password" value="Senha">
+        </div>
+        <div id="login_buttons">
+            <input type="checkbox" name="remember_me_checkbox" id="remember_me_checkbox">
+            <button type="button" id="login_action">Logar!</button>
+            <button type="button" id="register_action">Registrar</button>
+        </div>
     </div>
 </body>
 </html>

@@ -1,0 +1,22 @@
+body{
+    font-family: Verdana;
+    background-image: url("imgs/bg.webp");
+    background-size: cover;
+}
+#login_popup_title{
+    font-size:25px;
+    font-family: Verdana;
+    font-display: auto;
+    color:aliceblue;
+}
+#container{
+    background-color: black;
+    border-radius: 5%;
+    padding: 0px;
+    margin: auto;
+    position: relative;
+    width: 50%;
+}
+.button{
+    font-family: Verdana;
+}
